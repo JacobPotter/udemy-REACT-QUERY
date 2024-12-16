@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="All Tests" type="JavaScriptTestRunnerVitest">
+    <config value="$PROJECT_DIR$/base-lazy-days/client/vite.config.js" />
+    <node-interpreter value="project" />
+    <vitest-package value="$PROJECT_DIR$/base-lazy-days/client/node_modules/vitest" />
+    <working-dir value="$PROJECT_DIR$/base-lazy-days/client/" />
+    <envs />
+    <scope-kind value="ALL" />
+    <method v="2" />
+  </configuration>
+</component>

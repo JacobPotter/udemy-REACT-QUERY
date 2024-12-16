@@ -1,7 +1,8 @@
 import { queryKeys } from '@/react-query/constants'
 
-export const generateUserKey = (userId: number, userToken: string) => {
-    return [queryKeys.user, userId, userToken]
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export const generateUserKey = (userId: number, _userToken: string) => {
+    return [queryKeys.user, userId]
 }
 
 export const generateUserAppointmentsKey = (
